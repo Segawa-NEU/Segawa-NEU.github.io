@@ -1,6 +1,7 @@
 body {
     height: 100%;
 }
+
 .background{
     background-image: url('img/background.jpg');
     background-position: center;
@@ -9,6 +10,7 @@ body {
     background-color: #232323;
     background-size: cover;
 }
+
 #main-header {
     position: absolute;
     top: 0;
@@ -23,6 +25,17 @@ body {
     font-size: 50px;
     color: white;
 }
+
 #detail-button{
     margin-top: 10px;
+}
+
+.standard-card {
+    width: 80%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%
 }
