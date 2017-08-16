@@ -9,7 +9,11 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-
+    <script>
+    function scrollToTop() {
+        $(".mdl-layout__content").scrollTop(0);
+    }
+    </script>
     <link rel="stylesheet" href="./style.css">
 
     <title>Portfolio</title>
@@ -23,11 +27,11 @@
                 <span class="mdl-layout-title">Portfolio</span>
             </div>
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Who Am I</a>
-                <a href="#fixed-tab-2" class="mdl-layout__tab">Education</a>
-                <a href="#fixed-tab-3" class="mdl-layout__tab">Accomplishment</a>
-                <a href="#fixed-tab-4" class="mdl-layout__tab">Work Experience</a>
-                <a href="#fixed-tab-5" class="mdl-layout__tab">Skills</a>
+                <a href="#fixed-tab-1" class="mdl-layout__tab is-active" onclick="scrollToTop();">Who Am I</a>
+                <a href="#fixed-tab-2" class="mdl-layout__tab" onclick="scrollToTop();">Education</a>
+                <a href="#fixed-tab-3" class="mdl-layout__tab" onclick="scrollToTop();">Accomplishment</a>
+                <a href="#fixed-tab-4" class="mdl-layout__tab" onclick="scrollToTop();">Work Experience</a>
+                <a href="#fixed-tab-5" class="mdl-layout__tab" onclick="scrollToTop();">Skills</a>
             </div>
         </header>
         <div class="mdl-layout__drawer">
