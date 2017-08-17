@@ -39,3 +39,11 @@ body {
     margin-top: 5%;
     margin-bottom: 5%
 }
+
+.page-content {
+    display:none;
+}
+
+header {
+    display:none;
+}
