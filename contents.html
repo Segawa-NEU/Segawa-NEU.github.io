@@ -10,16 +10,23 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <script>
-    function scrollToTop() {
-        $(".mdl-layout__content").scrollTop(0);
-    }
+        $(function() {
+            $('.page-content').hide();
+            $('header').hide();
+            $('.page-content').fadeIn(2000);
+            $('header').fadeIn(2000);
+        });
+
+        function scrollToTop() {
+            $(".mdl-layout__content").scrollTop(0);
+        }
     </script>
     <link rel="stylesheet" href="./style.css">
 
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="background">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
         <header class="mdl-layout__header">
@@ -36,13 +43,13 @@
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Contacts</span>
-                <nav class="mdl-navigation">
-                  <a class="mdl-navigation__link" href="https://github.com/Segawa-NEU" target="_blank">GitHub</a>
-                  <a class="mdl-navigation__link" href="https://www.linkedin.com/in/lucas-segawa-neu/" target="_blank">LinkedIn</a>
-                  <a class="mdl-navigation__link" href="mailto:segawa.l@husky.neu.edu">Email</a>
-                </nav>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://github.com/Segawa-NEU" target="_blank">GitHub</a>
+                <a class="mdl-navigation__link" href="https://www.linkedin.com/in/lucas-segawa-neu/" target="_blank">LinkedIn</a>
+                <a class="mdl-navigation__link" href="mailto:segawa.l@husky.neu.edu">Email</a>
+            </nav>
         </div>
-        <main class="mdl-layout__content background">
+        <main class="mdl-layout__content">
             <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
                 <div class="page-content">
                     <div class="mdl-card mdl-shadow--2dp standard-card">
