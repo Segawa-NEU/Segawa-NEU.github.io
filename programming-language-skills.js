@@ -2,10 +2,11 @@ var ctx = document.getElementById("programming-language-skills").getContext('2d'
 var myChart = new Chart(ctx, {
 type: 'bar',
 data: {
-    labels: ["Java", "HTML", "CSS", "Javascript", "C++", "C", "Python"],
+    labels: ["Java", "HTML", "CSS", "SQL", "Racket", "Ruby", "C++", "C", "Python", "VB.NET"],
     datasets: [{
-        data: [10.0, 9.1, 8.5, 6.3, 6.1, 5.2, 3.9],
+        data: [9.4, 9.2, 9.1, 8.7, 8.2, 7.1, 6.4, 5.6, 4.5, 4.1],
         backgroundColor: [
+            'rgba(255, 224, 130, 0.2)',
             'rgba(255, 224, 130, 0.2)',
             'rgba(255, 224, 130, 0.2)',
             'rgba(255, 224, 130, 0.2)',
@@ -17,6 +18,7 @@ data: {
             'rgba(255, 224, 130, 0.2)'
         ],
         borderColor: [
+            'rgba(255, 202, 40, 1)',
             'rgba(255, 202, 40, 1)',
             'rgba(255, 202, 40, 1)',
             'rgba(255, 202, 40, 1)',
