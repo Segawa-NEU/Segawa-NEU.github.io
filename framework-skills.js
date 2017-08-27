@@ -2,7 +2,7 @@ var ctx = document.getElementById("framework-skills").getContext('2d');
 var myChart = new Chart(ctx, {
 type: 'bar',
 data: {
-    labels: ["Ruby on Rails", "Material Design Lite", "Boostrap"],
+    labels: ["Ruby on Rails", "Material Design Lite", "Bootstrap"],
     datasets: [{
         data: [7.4, 6.3, 5.7],
         backgroundColor: [
