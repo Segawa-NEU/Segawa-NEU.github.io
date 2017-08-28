@@ -2,9 +2,9 @@ var ctx = document.getElementById("programming-language-skills").getContext('2d'
 var myChart = new Chart(ctx, {
 type: 'bar',
 data: {
-    labels: ["Java", "HTML", "CSS", "SQL", "Racket", "Ruby", "C++", "C", "Python", "VB.NET"],
+    labels: ["Java", "HTML", "CSS", "SQL", "Racket", "Ruby", "C++", "C", "JavaScript", "Python", "VB.NET"],
     datasets: [{
-        data: [9.4, 9.2, 9.1, 8.7, 8.2, 7.1, 6.4, 5.6, 4.5, 4.1],
+        data: [9.4, 9.2, 9.1, 8.7, 8.2, 7.1, 6.4, 5.6, 5.1, 4.5, 4.1],
         backgroundColor: [
             'rgba(255, 224, 130, 0.2)',
             'rgba(255, 224, 130, 0.2)',
